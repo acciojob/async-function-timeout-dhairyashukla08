@@ -17,8 +17,8 @@ async function displayMessageWithDelay() {
         return;
     }
 
-    outputDiv.textContent = "Waiting..."; 
-    submitButton.disabled = true; 
+   outputDiv.textContent = ""; 
+    submitButton.disabled = true;
 
     try {
         await delayPromise(delayValue);
